@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes"  initial-scale=1">
+		<title>Portfólio</title>
+		<link rel="stylesheet" href="./bootstrap-4.1.3/css/bootstrap.min.css">
+		<script src="./js/jquery-3.3.1" ></script>
+		<script src="./bootstrap-4.1.3/js/bootstrap.min.js" ></script>
+		<link rel="stylesheet"  href="./css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="imagemSvg" src="./img/pata.svg" alt="Pata de um Leão">
+					</div>
+					<div class="col-md-6 text-right text-uppercase">
+						<h1 class="text-thin super-text">Fabiano Lopes</h1>
+						<h3>Animais em Extinção</h3>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-md-12">
+				<hr class="line">
+			</div>	
+		</div>
+		<section>
+			<div class="row">
+				<div class="col-md-12">
+					<picture>
+				        <source media="(min-width: 900px)" srcset="./img/peixe-palh-1140_large_2x.jpg">
+				        <source media="(min-width: 700px)" srcset="./img/peixe-palh-700_medium_1x.jpg"> 
+				        <source media="(min-width: 450px)" srcset="./img/peixe-palh-500-little.jpg"> 
+				        <img class="img-fluid" src="./img/peixe-palh-1140_large_2x.jpg" alt="Peixe Palhaço, nas cores laranja, branco e preto">
+			        </picture>		
+				</div>
+			</div>
+		</section>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="sub-title">Próximo ao Fim</h2>
+			</div>
+		</div>
+		<section>
+			<div class="row text-center subject">
+	            <div class="col-md-4">
+            	   <picture>
+				       <source media="(min-width: 900px)" srcset="./img/tartaruga_500x.jpg" data-toggle="modal" data-target="#tartaruga">
+				       <source media="(min-width: 700px)" srcset="./img/tartaruga_500-1x.jpg" data-toggle="modal" data-target="#tartaruga"> 
+				       <img class="img-fluid" src="./img/tartaruga_500x.jpg" alt="Tartaruga Marinha em Extinção" data-toggle="modal" data-target="#tartaruga">
+			       </picture>	
+	              <h3 class="text-uppercase">Tartaruga Marinha</h3>
+	              <p><a class="link-mais" href="http://biologiamais.com.br/zoologia/uma-breve-caracterizacao-dos-quelonios-14.html" target="_blank">Saiba Mais</a></p>
+	            </div>
+	            <div class="col-md-4">
+	              <picture>
+				       <source media="(min-width: 900px)" srcset="./img/leao_500-1x.jpg" data-toggle="modal" data-target="#leao">
+				       <source media="(min-width: 700px)" srcset="./img/leao_500-2x.jpg" data-toggle="modal" data-target="#leao"> 
+				       <img class="img-fluid" src="./img/leao_500-1x.jpg" alt="Leão Marinho em Extinção" data-toggle="modal" data-target="#leao">
+			       </picture>	
+	              <h3 class="text-uppercase">Leão Marinho</h3>
+	              <p><a class="link-mais" href="http://www.bichosbrasil.com.br/leao-marinho/" target="_blank">Saiba Mais</a></p>
+	            </div>
+	            <div class="col-md-4">
+	              <picture>
+				       <source media="(min-width: 900px)" srcset="./img/peixe-boi-500.jpg" data-toggle="modal" data-target="#boi">
+				       <source media="(min-width: 700px)" srcset="./img/peixe-boi-500-2x.jpg" data-toggle="modal" data-target="#boi"> 
+				       <img class="img-fluid" src="./img/peixe-boi-500.jpg" alt="Leão Marinho em Extinção" data-toggle="modal" data-target="#boi">
+			       </picture>	
+	              <h3 class="text-uppercase">Peixe Boi</h3>
+	              <p><a class="link-mais" href="http://voupassar.club/animais-em-extincao-no-brasil-conheca-especies/" target="_blank">Saiba Mais</a></p>
+	        </div> 
+	    </section>
+
+
+		   <!-- Modal Tartaruga -->
+        <div class="modal fade" id="tartaruga" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tartaruga-de-Pente</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="img-fluid" src="./img/tarta-600x.jpg">
+                Eretmochelys imbricata, a Tartagura-de-pente - Encontrada em regiões tropicais, a tartaruga-de- pente encontra-se criticamente em perigo, de acordo com a IUCN. Estima-se que sua população  tenha diminuído em 80% no último século.
+				São tartarugas de porte médio, com comprimento que varia entre 60 e 100 cm, e que podem pesar mais de 100 kg. Além de serem comidas como iguarias, as tartarugas-de-pente são caçadas para terem seus cascos removidos e utilizados na elaboração de objetos como decorações e joias, por exemplo.
+				Fonte:<code> https://marsemfim.com.br/animais-marinhos-ameacados-de-extincao/</code> - Acesso: outubro de 2018.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <!-- <button type="button" class="btn btn-primary">Salvar mudanças</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+		<!-- Modal Leao Marinho -->
+		<div class="modal fade" id="leao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Leão Marinho</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="img-fluid" src="./img/leao_500x.jpg">
+                O Leão Marinho é um mamífero que sempre é confundido com a foca já que possuem os membros espalmados para melhor adaptação ao nadar. Esses animais pertencentes a família dos otarídeos são freqüentemente caçados pela espécie humana por conta de sua carne, óleo e gordura.  O macho pode pesar mais de 550 kg e atingir mais de 2,5 m. Sua coloração é cinza escuro, já as fêmeas atingem em torno de 1.6 m possuem a tonalidade cinza é mais claro em relação aos machos.
+				A caça desse animal é proibida e hoje não são considerados ameaçados de extinção, mas apesar disso sofrem com a poluição marinha. O Leão Marinho vive em regiões de baixa temperatura e se alimentam de peixes, são essencialmente carnívoros. A fêmea gesta por 12 meses e os filhotes nascem em terra medindo 40 cm. Só aprendem a nadar com dois meses e podem viver até 30 anos.
+				Fonte:<code> http://www.bichosbrasil.com.br/leao-marinho/</code> - Acesso: outubro de 2018.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <!-- <button type="button" class="btn btn-primary">Salvar mudanças</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+		<!-- Modal Peixe Boi -->
+		<div class="modal fade" id="boi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Peixe Boi</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="img-fluid" src="./img/peixe-boi-500.jpg">
+                Um dos maiores símbolos da vida aquática brasileira, o peixe-boi-marinho encontra-se em perigo de extinção, estimando-se cerca de 500 indivíduos da espécie vivos na natureza, entre os litorais de Alagoas e Amapá.
+				Fonte:<code> http://voupassar.club/animais-em-extincao-no-brasil-conheca-especies/</code> - Acesso: outubro de 2018.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <!-- <button type="button" class="btn btn-primary">Salvar mudanças</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+		<footer>
+			<div class="row">
+				<div class="col-md-12">
+					<h5 class="text-footer">Fabiano Lopes 2018</h5>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
